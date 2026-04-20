@@ -72,8 +72,7 @@ def is_user_in_channel(user_id):
 
 
 def call_api(region, uid):
-    url = f"https://no-
-permanent-like-api.vercel.app/like? uid={uid}&server_name={region}"
+    url = f"https://free-fire-like-m9qwrjxry-jamirulislam123000-8988s-projects.vercel.app//like? uid={uid}&server_name={region}"
     try:
         response = requests.get(url, timeout=20)
         if response.status_code != 200:
